@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#thetop {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(53, 52, 52);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#partoftitle {
+    font-size: 15px;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hari {
+    font-size: 35px;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#kontakt,
+#radovi {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(53, 52, 52);
+    font-size: 25px;
+    color: yellow;
+    border: 1px solid rgb(53, 52, 52);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+}
+
+#kontakt:hover,
+#radovi:hover {
+    background-color: orange;
+    color: black;
+}
+
+#project {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 7px 7px blue;
+    margin-left: 100px;
+    margin-top: 600px;
+    border-radius: 30px;
+}
+
+#downheader {
+    position: fixed;
+    margin-top: 610px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(53, 52, 52);
+    border: 1px solid black;
+}
+
+#rights {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dot {
+    position: absolute;
+    margin-top: 2000px;
+}
+
+#projecttitle {
+    font-size: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 170px;
+    color: yellow;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#project1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 7px 7px blue;
+    margin-left: 480px;
+    margin-top: 600px;
+    border-radius: 30px;
+}
+#projecttitle1{
+    font-size: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 7px 7px blue;
+    margin-left: 870px;
+    margin-top: 600px;
+    border-radius: 30px;
+}
+#projecttitle2{
+    font-size: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #thetop {
+        height: 60px;
+        padding: 0 10px;
+    }
+
+    #buttons {
+        justify-content: center;
+        width: 100%;
+    }
+
+    #kontakt,
+    #radovi {
+        font-size: 20px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    h5 {
+        font-size: 2rem;
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+    #project {
+        width: 80%;
+        height: 350px;
+        margin-left: 10%;
+        margin-top: 500px;
+    }
+    #project1 {
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        margin-top: 900px;
+    }
+    #project2 {
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        margin-top: 1300px;
+    }
+
+
+    #downheader {
+        margin-top: 550px;
+    }
+    #hari {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #thetop {
+        height: 50px;
+        padding: 0 5px;
+    }
+
+    #partoftitle {
+        font-size: 12px;
+    }
+
+    #hari {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    #buttons {
+        justify-content: center;
+        width: 100%;
+    }
+
+    #kontakt,
+    #radovi {
+        font-size: 18px;
+        width: 70px;
+        margin-left: 10px;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+
+    #project {
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        margin-top: 400px;
+    }
+    #project1 {
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        margin-top: 800px;
+    }
+    #project2 {
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        margin-top: 1200px;
+    }
+
+
+
+    #downheader {
+        margin-top: 450px;
+    }
+}
+
+
