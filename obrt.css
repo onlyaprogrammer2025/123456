@@ -165,6 +165,7 @@ h5 {
     #thetop {
         height: 60px;
         padding: 0 10px;
+        margin-top: 10px;
     }
 
     #buttons {
@@ -206,7 +207,7 @@ h5 {
 
 
     #downheader {
-        margin-top: 550px;
+        margin-top: 650px;
     }
     #hari {
         font-size: 12px;
@@ -218,6 +219,7 @@ h5 {
     #thetop {
         height: 50px;
         padding: 0 5px;
+        margin-top: 10px;
     }
 
     #partoftitle {
@@ -269,7 +271,7 @@ h5 {
 
 
     #downheader {
-        margin-top: 450px;
+        margin-top: 550px;
     }
 }
 
