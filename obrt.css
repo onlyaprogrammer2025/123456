@@ -35,8 +35,7 @@ body {
     justify-content: flex-end;
 }
 
-#kontakt,
-#radovi {
+#kontakt {
     width: 100px;
     height: 50px;
     background-color: rgb(53, 52, 52);
@@ -44,13 +43,12 @@ body {
     color: yellow;
     border: 1px solid rgb(53, 52, 52);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 10px;
+    margin-left: -100px;
 }
 
-#kontakt:hover,
-#radovi:hover {
+#kontakt:hover {
     background-color: orange;
-    color: black;
+    color: black
 }
 
 #project {
@@ -137,13 +135,138 @@ h5 {
     justify-content: center;
     align-items: center;
 }
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color: black;
+}
+#firstimagee{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: 645px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+    background-color: blue;
+    margin-left: 150px;
+}
+#firstimagee:hover{
+    transform: scale(1.3);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+#secondimagee{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    margin-top: 645px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+    background-color: blue;
+    margin-left: 450px;
+}
+#secondimagee:hover{
+    transform: scale(1.3);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+#thirdimagee{
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    margin-top: 645px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+    background-color: blue;
+    margin-left: 890px;
+}
+#thirdimagee:hover{
+    transform: scale(1.3);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+#project:hover, #project1:hover, #project2:hover{
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+#description{
+    position: absolute;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    margin-top: 360px;
+    margin-left: 175px;
+}
+#downbelow{
+    position: absolute;
+    font-size: 25px;
+    color: yellow;
+    margin-top: 530px;
+    margin-left: 500px;
+    z-index: 0;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-
-
-
-
-
-
+#photo1{
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    margin-top: 870px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+    background-color: blue;
+    margin-left: 150px;
+}
+#photo1:hover{
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+#photo2{
+    position: absolute;
+    width: 980px;
+    height: 600px;
+    margin-top: 1250px;
+    margin-left: 160px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+}
+#photo2:hover{
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+#videoooo{
+    position: absolute;
+    margin-top: 1970px;
+    margin-left: 370px;
+    width: 570px;
+    height: 460px; 
+}
+#moreinfo{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    transition: transform 0.5s ease;
+    background-color: orange;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    margin-left: 550px;
+    margin-top: 2490px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#moreinfo:hover{
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#dot1{
+    position: absolute;
+    margin-top: 3000px;
+}
 
 
 
@@ -186,34 +309,78 @@ h5 {
         margin-top: 200px;
     }
 
-    #project {
-        width: 80%;
-        height: 350px;
-        margin-left: 10%;
-        margin-top: 500px;
-    }
-    #project1 {
-        width: 90%;
-        height: 250px;
-        margin-left: 5%;
-        margin-top: 900px;
-    }
-    #project2 {
-        width: 90%;
-        height: 250px;
-        margin-left: 5%;
-        margin-top: 1300px;
-    }
+     #firtimagee{
+         width: 150px;
+         height: 150px;
+         margin-left: 90px;
+     }
+
+#secondimagee{
+    width: 250px;
+    height: 300px;
+    margin-left: 55px;
+    margin-top: 1190px;
+}
+
+#thirdimagee{
+    width: 250px;
+    height: 300px;
+    margin-left: 55px;
+    margin-top: 1540px;
+}
+#photo2{
+    width: 350px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 2000px;
+
+}
 
 
+
+#dot1{
+    margin-top: 3000px;
+}
+
+
+
+#moreinfo{
+    z-index: 1000;
+    margin-top: 2680px;
+    margin-left: 70px;
+}
+#videoooo{
+    width: 350px;
+    height: 250px;
+    margin-top: 2370px;
+    margin-left: 60px;
+}
+
+ 
     #downheader {
-        margin-top: 650px;
+        margin-top: 690px;
+        position: fixed;
     }
     #hari {
-        font-size: 12px;
+        font-size: 5px;
         margin-top: 15px;
     }
+    #partoftitle{
+        font-size: 6px;
+    }
+    #description{
+        font-size: 12px;
+        margin-top: 187px;
+        margin-left: 21px;
+    }
+    #downbelow{
+        font-size: 15px;
+        margin-left: 109px;
+        margin-top: 350px;
+    }
 }
+
+
 
 @media (max-width: 480px) {
     #thetop {
@@ -223,7 +390,7 @@ h5 {
     }
 
     #partoftitle {
-        font-size: 12px;
+        font-size: 5px;
     }
 
     #hari {
@@ -263,15 +430,15 @@ h5 {
     }
     #project2 {
         width: 90%;
-        height: 250px;
+        height: 450px;
         margin-left: 5%;
-        margin-top: 1200px;
+        margin-top: 1250px;
     }
 
 
 
     #downheader {
-        margin-top: 550px;
+        margin-top: 590px;
     }
 }
 
