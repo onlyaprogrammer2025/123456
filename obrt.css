@@ -311,28 +311,29 @@ a{
 
      #firtimagee{
          width: 150px;
-         height: 150px;
-         margin-left: 90px;
+         height: 100px;
+         margin-left: 55px;
+         margin-top: 55px;
      }
 
 #secondimagee{
     width: 250px;
     height: 300px;
     margin-left: 55px;
-    margin-top: 1190px;
+    margin-top: 1100px;
 }
 
 #thirdimagee{
     width: 250px;
     height: 300px;
     margin-left: 55px;
-    margin-top: 1540px;
+    margin-top: 1490px;
 }
 #photo2{
     width: 350px;
     height: 300px;
     margin-left: 25px;
-    margin-top: 2000px;
+    margin-top: 1950px;
 
 }
 
@@ -346,19 +347,20 @@ a{
 
 #moreinfo{
     z-index: 1000;
-    margin-top: 2680px;
-    margin-left: 70px;
+    margin-top: 2630px;
+    margin-left: 40px;
 }
 #videoooo{
     width: 350px;
     height: 250px;
-    margin-top: 2370px;
-    margin-left: 60px;
+    margin-top: 2320px;
+    margin-left: 30px;
 }
 
  
+
     #downheader {
-        margin-top: 690px;
+        margin-top: 790px;
         position: fixed;
     }
     #hari {
@@ -370,76 +372,12 @@ a{
     }
     #description{
         font-size: 12px;
-        margin-top: 187px;
+        margin-top: 257px;
         margin-left: 21px;
     }
     #downbelow{
         font-size: 15px;
         margin-left: 109px;
-        margin-top: 350px;
+        margin-top: 410px;
     }
 }
-
-
-
-@media (max-width: 480px) {
-    #thetop {
-        height: 50px;
-        padding: 0 5px;
-        margin-top: 10px;
-    }
-
-    #partoftitle {
-        font-size: 5px;
-    }
-
-    #hari {
-        font-size: 25px;
-        margin-top: 15px;
-    }
-
-    #buttons {
-        justify-content: center;
-        width: 100%;
-    }
-
-    #kontakt,
-    #radovi {
-        font-size: 18px;
-        width: 70px;
-        margin-left: 10px;
-    }
-
-    h5 {
-        font-size: 1.5rem;
-        margin-left: 20px;
-        margin-top: 150px;
-    }
-
-    #project {
-        width: 90%;
-        height: 250px;
-        margin-left: 5%;
-        margin-top: 400px;
-    }
-    #project1 {
-        width: 90%;
-        height: 250px;
-        margin-left: 5%;
-        margin-top: 800px;
-    }
-    #project2 {
-        width: 90%;
-        height: 450px;
-        margin-left: 5%;
-        margin-top: 1250px;
-    }
-
-
-
-    #downheader {
-        margin-top: 590px;
-    }
-}
-
-
