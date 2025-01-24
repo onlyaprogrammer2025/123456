@@ -364,7 +364,7 @@ a{
         position: fixed;
     }
     #hari {
-        font-size: 5px;
+        font-size: 12px;
         margin-top: 15px;
     }
     #partoftitle{
@@ -372,12 +372,12 @@ a{
     }
     #description{
         font-size: 12px;
-        margin-top: 257px;
+        margin-top: 277px;
         margin-left: 21px;
     }
     #downbelow{
         font-size: 15px;
         margin-left: 109px;
-        margin-top: 410px;
+        margin-top: 470px;
     }
 }
