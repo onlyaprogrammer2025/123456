@@ -312,14 +312,14 @@ a{
      #firtimagee{
          width: 150px;
          height: 100px;
-         margin-left: 55px;
-         margin-top: 55px;
+         margin-left: 20px;
+         margin-top: -55px;
      }
 
 #secondimagee{
     width: 250px;
     height: 300px;
-    margin-left: 55px;
+    margin-left: 20px;
     margin-top: 1100px;
 }
 
@@ -364,11 +364,12 @@ a{
         position: fixed;
     }
     #hari {
-        font-size: 12px;
-        margin-top: 15px;
+        font-size: 17px;
+        margin-top: 22px;
+        margin-left: 5px;
     }
     #partoftitle{
-        font-size: 6px;
+        font-size: 14px;
     }
     #description{
         font-size: 12px;
